@@ -1,0 +1,24 @@
+#loginWrapper {
+    height: 100vh;
+    background-color: rgb(253, 184, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginWrapper .btn {
+    margin-top: 50px;
+}
+#loginWrapper input {
+    text-align:center;
+    width:100%;
+}
+#loginWrapper .login-form {
+    margin-top:50px;
+}
+#loginWrapper  .login-alert {
+    margin: 20px 0px;
+}
+
+#loginWrapper .login-button-arrow {
+    margin-bottom: 3px;
+}

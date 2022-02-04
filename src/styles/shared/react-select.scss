@@ -1,0 +1,22 @@
+.orange-design-form .Select-control,
+.orange-design-form .Select-menu-outer {
+    border-color: rgb(253, 184, 19);
+    border-right: 0px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-image: linear-gradient(to right, rgb(253, 184, 19), white);
+    border-image-slice: 1;
+}
+.orange-design-form .Select-clear-zone {
+    display: none !important;
+}
+.orange-design-form .is-focused {
+
+}
+.orange-design-form .Select-value-label {
+    color: grey !important;
+}
+.orange-design-form .Select-arrow {
+    border: 0px;
+    background-image: url('../../images/icons/drop down arrow.png');
+}

@@ -1,0 +1,78 @@
+#admin-table th,
+#admin-table table,
+#admin-table .react-bs-table-bordered {
+    border-width: 0px !important;
+}
+
+#admin-table table {
+    border-collapse: collapse;
+}
+
+//#admin-table tr td:first-child {
+//    border-top-left-radius: 21px !important;
+//    border-bottom-left-radius: 21px !important;
+//    padding-left: 50px !important;
+//}
+//#admin-table th:first-child {
+//    padding-left: 50px !important;
+//}
+//#admin-table tr td:last-child {
+//    border-top-right-radius: 21px !important;
+//    border-bottom-right-radius: 21px !important;
+//}
+
+#admin-table td {
+    background-color: white;
+    border-width: 0px;
+    vertical-align: middle !important;
+    padding: 0 5px !important;
+}
+
+#admin-table .admin-table-container {
+    text-align: center;
+    clear: left
+}
+
+#dealershipSearch {
+    width: 80%;
+    float: left;
+}
+
+#admin-table #dealershipSearch {
+    float: left;
+    margin-right: 12px !important;
+}
+
+#admin-table .pagination {
+    float: right !important;
+}
+
+.col-hidden {
+    display: none
+}
+
+#admin-table tr {
+    background: transparent !important;
+    border-bottom: 1px solid #fdb813 !important;
+    border-image: linear-gradient(to right, rgb(253, 184, 19), white, rgb(253, 184, 19)) !important;
+    border-image-slice: 1 !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #fdb813 !important;
+    border-color: #fdb813 !important;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: black;
+}
+
+.after-pagination-clear {
+    clear: both;
+}

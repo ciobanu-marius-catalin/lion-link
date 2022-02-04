@@ -1,0 +1,84 @@
+#grid-element-wrapper .grid-container {
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 10px ;
+    border: 1px solid;
+    background-color:white;
+    border-color: #fdb813 !important;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: left;
+}
+#grid-element-wrapper .grid-container h2 {
+    margin-top: 0px;
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 24px;
+}
+#grid-element-wrapper {
+    display: inline-block;
+}
+#grid-element-wrapper .gird-header {
+    padding-left: 20px;
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, white , rgb(253, 184, 19), white);
+    border-image-slice: 1;
+}
+
+#grid-element-wrapper .grid-body .img-wrapper {
+    display: inline-block;
+    margin-right: 20px;
+    width: 16px;
+    height: 16px;
+}
+#grid-element-wrapper .grid-body {
+    padding: 10px 20px;
+}
+#grid-element-wrapper .grid-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#grid-element-wrapper .list-item {
+    margin: 6px 0px;
+}
+#grid-element-wrapper .adminButton{
+    color: black;
+    background-color: rgb(253, 184, 19);
+    padding: 10px 0px ;
+    width:32%;
+    margin-right:2px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0px !important;
+}
+#grid-element-wrapper .adminButton:hover {
+    color:white;
+    background-color: black;
+}
+#grid-element-wrapper .dms-installed {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    z-index:10;
+    padding: 10px 0px ;
+    width:32%;
+    margin-right:1px;
+    font-size: 12px;
+    font-weight: bold
+
+}
+@media only screen and (max-width: 480px) {
+    #grid-element-wrapper .grid-container {
+        width: 295px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    #grid-element-wrapper .grid-container {
+        width: 235px
+    }
+}
